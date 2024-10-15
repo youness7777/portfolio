@@ -38,7 +38,7 @@ export const SocialLinks = () => {
     },
     {
       id:4,
-      href:'ezzaouyouness@gmail.com',
+      href:'gmailto:ezzaouyouness@gmail.com',
       child :(
         <>
         email<HiOutlineMail size={30}/>
