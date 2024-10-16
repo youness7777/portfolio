@@ -5,10 +5,9 @@ export const About = () => {
     <div name="about" className='h-auto w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center '>
             <div className='pb-8'>
-            <p className='text-4xl font-bold inline relative'>
-    À propos de moi
-    <span className='absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-gray-400 to-gray-700'></span>
-</p>
+                <p className='text-4xl font-bold  inline border-b-4 border-gray-600'>
+                    À propos de moi
+                </p>
             </div>
 
             <p className='text-xl mt-4  text-gray-300 leading-relaxed'>
