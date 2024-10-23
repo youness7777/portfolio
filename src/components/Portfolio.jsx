@@ -1,5 +1,6 @@
 import React from 'react'
 import hospitalapp from '../assets/accueilportfolio.png'
+import restaurant from '../assets/forportfolio.png'
 export const Portfolio = () => {
     const portfolios=[
         {
@@ -9,7 +10,7 @@ export const Portfolio = () => {
 
         {
             id:2,
-            src:hospitalapp
+            src:restaurant
         },
 
         {
@@ -27,7 +28,7 @@ export const Portfolio = () => {
         }
     ];
   return (
-    <div className='w-full bg-gradient-to-b from-black  to-gray-800 md:h-auto'>
+    <div name="Projets" className='w-full bg-gradient-to-b from-black  to-gray-800 md:h-auto'>
         <div className='max-w-screen-lg flex flex-col mx-auto text-white justify-center p-4 w-full'>
             <div className='pb-8'>
                 <p className='text-4xl  font-bold inline border-b-4 border-b-gray-600'>

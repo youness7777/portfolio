@@ -97,7 +97,7 @@ export const Experience = () => {
       ];
       
   return (
-    <div className='w-full bg-gradient-to-b from-gray-800 to-black pt-20 md:h-auto'>
+    <div name='Expériences' className='w-full bg-gradient-to-b from-gray-800 to-black pt-20 md:h-auto'>
         <div className='max-w-screen-lg flex flex-col mx-auto justify-center p-4 text-white w-full h-full '>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-600'>

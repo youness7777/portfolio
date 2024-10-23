@@ -4,7 +4,7 @@ import heroImage from "../assets/ezzaou.jpg";
 
 export const Home = () => {
   return (
-    <div className='h-auto w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20 md:h-screen lg:h-screen'>
+    <div name='Accueil' className='h-auto w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20 md:h-screen lg:h-screen'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center px-4 h-full md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-6xl font-bold  text-white'>je suis un Déveleppeur Full Stack</h2>
