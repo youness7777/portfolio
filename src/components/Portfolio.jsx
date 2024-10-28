@@ -13,6 +13,7 @@ import hospital_v from '../assets/hospital.mp4'
 import koulhealthy_v from '../assets/KoulHealthy.mp4'
 import restaurant_v from '../assets/restaurant.mp4'
 import shop from '../assets/shopp.mp4'
+import anibis_v from '../assets/anibis.mp4'
 
 
 
@@ -27,6 +28,8 @@ export const Portfolio = () => {
         {
             id:1,
             src:anibis,
+            video:anibis_v
+
         },
 
         {
