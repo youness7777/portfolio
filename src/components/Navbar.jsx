@@ -51,8 +51,10 @@ export const Navbar = () => {
         {nav && (
          <ul className='flex flex-col absolute top-0 left-0 justify-center w-full h-screen items-center bg-gradient-to-b from-black to-gray-500 text-gray-500'>
           {links.map(({link,id})=>(
-            <li key={id} className='px-4  cursor-pointer capitalize  hover:scale-105 duration-200 py-6'> 
-            {link}
+            <li key={id} className='px-4 text-4xl cursor-pointer capitalize  hover:scale-105 duration-200 py-6'> 
+              <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}> 
+                {link} 
+              </Link>
             </li>
           ))}
          </ul>
