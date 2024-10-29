@@ -18,7 +18,7 @@ export const SocialLinks = () => {
     },
     {
       id:2,
-      href:'https://github.com/',
+      href:'https://github.com/youness7777',
       child :(
         <>
         GitHub<FaGithub size={30}/>
@@ -38,7 +38,7 @@ export const SocialLinks = () => {
     },
     {
       id:4,
-      href:'gmailto:ezzaouyouness@gmail.com',
+      href:'mailto:ezzaouyouness@gmail.com',
       child :(
         <>
         email<HiOutlineMail size={30}/>
@@ -48,7 +48,7 @@ export const SocialLinks = () => {
     },
     {
       id:5,
-      href:'/Youness Ezzaou_CV.pdf',
+      href:'/Youness_Ezzaou_CV.pdf',
       style:'rounded-br-md',
       child :(
         <>

@@ -28,48 +28,56 @@ export const Portfolio = () => {
         {
             id:1,
             src:anibis,
-            video:anibis_v
+            video:anibis_v,
+            url:'https://repo-pulse.pulsweb.ch/pulse-digital-prod/anibis-maroc'
 
         },
 
         {
             id:2,
             src:hospitalapp,
-            video:hospital_v
+            video:hospital_v,
+            url:'https://github.com/youness7777/hospital'
 
         },
 
         {
             id:3,
             src:restaurant,
-            video:restaurant_v
+            video:restaurant_v,
+            url:'https://github.com/youness7777/restaurant'
 
         },
 
         {
             id:4,
             src:eshopping,
-            video:shop
+            video:shop,
+            url:'https://github.com/youness7777/Shopper'
         },
         {
             id:5,
             src:freelance,
-            video:freelance_v
+            video:freelance_v,
+            url:''
         },
         {
             id:6,
             src:fssm,
+            url:''
             
         },
         {
             id:7,
             src:koulHealthy,
-            video:koulhealthy_v
+            video:koulhealthy_v,
+            url:'https://github.com/AmineMazza/Koul-Healthy'
         },
         {
             id:8,
             src:matforce,
-            video:casar
+            video:casar,
+            url:''
 
         }
     ];
@@ -86,13 +94,17 @@ export const Portfolio = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                {portfolios.map(({id,src,video})=>(
+                {portfolios.map(({id,src,video,url})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
                     <img className='h-44 w-full rounded-md ' src={src} alt='my work'></img>
 
                     <div className='flex justify-center items-center'>
-                        <button onClick={()=>setSelectedVideo(video)} className='w-1/2 px-6 py-6 hover:scale-105 duration-200'>Demo</button>
-                        <button className='w-1/2 px-6 py-6  hover:scale-105 duration-200'>Code</button>
+                        <button onClick={()=>setSelectedVideo(video)} className='w-1/2 px-6 py-6 hover:scale-105 duration-200'>
+                            Demo
+                        </button>
+                         <a className='w-1/2 px-6 py-6  hover:scale-105 duration-200' href={url}>
+                            <button className='w-1/2 px-6  hover:scale-105 duration-200'>Code</button>
+                         </a>   
                     </div>
                 </div>
                 ))}
