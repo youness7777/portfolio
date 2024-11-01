@@ -10,7 +10,7 @@ export const Contact = () => {
                 </p>
                     
                 <p className='py-6'>
-                    vous pouvez envoyer votre interet depuis la formulaire en bas
+                    Vous pouvez m'envoyer un message via le formulaire ci-dessous.
                 </p>
             </div>
 
