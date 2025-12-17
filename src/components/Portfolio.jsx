@@ -16,31 +16,36 @@ export const Portfolio = () => {
     {
       id: 1,
       src: anibis,
-      video: "/videos/anibis.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992029/anibis_rt93jf.mp4",
       url: "https://repo-pulse.pulsweb.ch/pulse-digital-prod/anibis-maroc",
     },
     {
       id: 2,
       src: hospitalapp,
-      video: "/videos/hospital.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992026/hospital_z4jiw1.mp4",
       url: "https://github.com/youness7777/hospital",
     },
     {
       id: 3,
       src: restaurant,
-      video: "/videos/restaurant.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992031/restaurant_lttrqo.mp4",
       url: "https://github.com/youness7777/restaurant",
     },
     {
       id: 4,
       src: eshopping,
-      video: "/videos/shopp.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765995008/shooper_v2ue8u.mp",
       url: "https://github.com/youness7777/Shopper",
     },
     {
       id: 5,
       src: freelance,
-      video: "/videos/freelance.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992011/freelance_fxel9x.mp4",
       url: "",
     },
     {
@@ -51,13 +56,15 @@ export const Portfolio = () => {
     {
       id: 7,
       src: koulHealthy,
-      video: "/videos/koulhealthy.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992025/shopp_fyfixo.mp4",
       url: "https://github.com/AmineMazza/Koul-Healthy",
     },
     {
       id: 8,
       src: matforce,
-      video: "/videos/casar.mp4",
+      video:
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765992023/casar_zrppl6.mp4",
       url: "",
     },
   ];
