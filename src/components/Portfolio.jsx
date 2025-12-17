@@ -38,7 +38,7 @@ export const Portfolio = () => {
       id: 4,
       src: eshopping,
       video:
-        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765995008/shooper_v2ue8u.mp",
+        "https://res.cloudinary.com/dbcpwlvrt/video/upload/v1765995008/shooper_v2ue8u.mp4",
       url: "https://github.com/youness7777/Shopper",
     },
     {
